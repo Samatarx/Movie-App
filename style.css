@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: rgb(20, 20, 20);
-  --secondary-color: #E50914;
+  --secondary-color: #e50914;
 }
 
 * {
@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: var(--primary-color) ;
+  background-color: var(--primary-color);
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
@@ -27,9 +27,8 @@ header {
 
 h1 {
   position: absolute;
-  color: #E50914;
+  color: #e50914;
   left: 5%;
-
 }
 
 .search {
@@ -47,13 +46,13 @@ h1 {
 }
 
 .search:focus::placeholder {
-  color:#E50914;
+  color: #e50914;
 }
 
 .search:focus {
   outline: none;
   background-color: #fff;
-  color:var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 main {
@@ -124,16 +123,14 @@ main {
   transform: translateY(0);
 }
 
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
   main {
     justify-content: center;
   }
 }
 
-
-@media (min-width:1800px) {
+@media (min-width: 1800px) {
   main {
     justify-content: center;
   }
-
 }
