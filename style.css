@@ -134,3 +134,15 @@ main {
     justify-content: center;
   }
 }
+
+@media(max-width:440px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    position: inherit;
+    left: 0%;
+  }
+}
